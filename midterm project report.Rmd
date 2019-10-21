@@ -89,7 +89,7 @@ ggplot(Data, mapping = aes(x = V23..Satisfaction.with.your.life, y = V242..Age, 
   ggtitle("Age and Satisfaction level")+ labs(caption = "Figure 2")
 
 ```
-For Figure 1, 10 means completely satisfied while 1 means completely not satisfied. It shows people are overall satisfied with their life.  
+For Figure 1, 10 means completely satisfied while 1 means completely not satisfied. It shows people are overall satisfied with their life.
   
   
 ### Feeling.of.happiness
@@ -114,7 +114,7 @@ ggplot(Data, mapping = aes(x = V10..Feeling.of.happiness, y = V242..Age, fill = 
   ggtitle("Age and Feeling of Happiness")+ labs(caption = "Figure 4")
 
 ```
-Figure 3 shows  most people are fairly happy.  
+Figure 3 shows  most people are fairly happy.
   
   
 ### How.much.freedom.of.choice.and.control.over.own.life
@@ -139,7 +139,7 @@ ggplot(Data, mapping = aes(x = V55..How.much.freedom.of.choice.and.control.over.
   ggtitle("Age and Freedom to Choos")+ labs(caption = "Figure 6")  
 
 ```
-For Figure 5, 10 means much freedom to choose while 1 means completely no freedom to choose. It shows people are overall satisfied freedom.  
+For Figure 5, 10 means much freedom to choose while 1 means completely no freedom to choose. It shows people are overall satisfied freedom.
   
 ## Financial situation  
   
@@ -169,7 +169,7 @@ ggplot(Data) +
    geom_mosaic(aes(x = product(V239..Scale.of.incomes, V23..Satisfaction.with.your.life), fill=V239..Scale.of.incomes), na.rm=TRUE) + 
    labs(x = "Income", y = "Satisfaction level", title='Satisfaction with life and Incomes')+ labs(caption = "Figure 9")
 ```
-Figure 5 is in normal distribution form and it is reasonable. Figure 9 is Mosaic Plots for Satisfaction with life and Incomes. It shows people with low income are strongly disatisfied with their life.  
+Figure 5 is in normal distribution form and it is reasonable. Figure 9 is Mosaic Plots for Satisfaction with life and Incomes. It shows people with low income are strongly disatisfied with their life.
   
 ### Satisfaction.with.financial.situation.of.household
 ```{r}
@@ -239,7 +239,7 @@ ggplot(Data, mapping = aes(x = V236..Is.the.chief.wage.earner.employed.now.or.no
   ggtitle("Age and Chief Wage Earner Employment")+ labs(caption = "Figure 15")  
 
 ```
-It is suprisingly that Figure 15 shows older people have higher unemplotment rate.  
+It is suprisingly that Figure 15 shows older people have higher unemplotment rate.
 
 ### Family.savings.during.past.year
 ```{r}
@@ -265,7 +265,7 @@ ggplot(Data, mapping = aes(x = V237..Family.savings.during.past.year, y = V242..
   theme(axis.text.x = element_text(angle = 45, hjust = 1, size=8))
 
 ```
-These plots show that Hong Kong people are overall in good financial situation.  
+These plots show that Hong Kong people are overall in good financial situation.
   
 ## Identity  
   
@@ -293,7 +293,7 @@ ggplot(Data, mapping = aes(x = V211..How.proud.of.nationality, y = V242..Age, fi
   theme(axis.text.x = element_text(angle = 45, hjust = 1, size=8))
 
 ```
-Figure 18 shows people are proud of being a Hong Konger.  
+Figure 18 shows people are proud of being a Hong Konger.
 
 ### I see myself as a part of the local community, a Hong Konger
 ```{r}
@@ -344,7 +344,7 @@ ggplot(Data, mapping = aes(x = V214..I.see.myself.as.part.of.the..country..natio
   theme(axis.text.x = element_text(angle = 45, hjust = 1, size=8))
 
 ```
-It is surprisingly that Figure 22 show most people consider themselves as a part of the Chinese nation. And Figure 23 shows that younger people are being less considering themselves as a part of the Chinese nation.  
+It is surprisingly that Figure 22 show most people consider themselves as a part of the Chinese nation. And Figure 23 shows that younger people are being less considering themselves as a part of the Chinese nation.
   
 ## Confidence in the government   
   
@@ -370,7 +370,7 @@ ggplot(Data, mapping = aes(x = V113..Confidence..The.police, y = V242..Age, fill
   ggtitle("Age and Confidence in the Police")+ labs(caption = "Figure 25") 
 
 ```
-Figure 25 shows younger people are significantly have less confidence in the police.  
+Figure 25 shows younger people are significantly have less confidence in the police.
 
 ### Confidence..Hong Kong government
 ```{r}
@@ -394,7 +394,7 @@ ggplot(Data, mapping = aes(x = V115..Confidence..The.government..in.your.nation.
   ggtitle("Age and Confidence in Hong Kong government")+ labs(caption = "Figure 27") 
 
 ```
-Figure 27 shows younger people are significantly have less confidence in Hong Kong government.    
+Figure 27 shows younger people are significantly have less confidence in Hong Kong government.
   
 ### Confidence..Mainland government
 ```{r}
@@ -418,8 +418,8 @@ ggplot(Data, mapping = aes(x = V125_17..Confidence..Mainland.government, y = V24
   ggtitle("Age and Confidence in Mainland government")+ labs(caption = "Figure 29") 
 
 ```
-Sadly, Figure 28 shows most people have no confidence in Mainland government. 
-Figure 29 shows younger people are significantly have less confidence in Mainland government.   
+Sadly, Figure 28 shows most people have no confidence in Mainland government.
+Figure 29 shows younger people are significantly have less confidence in Mainland government.
 
   
 ## Attitude towards democracy  
@@ -446,7 +446,7 @@ ggplot(Data, mapping = aes(x = V140..Importance.of.democracy, y = V242..Age, fil
   ggtitle("Age and Importance of Democracyt")+ labs(caption = "Figure 31") 
 
 ```
-For Figure 30, 10 means very important while 1 means not very important. It shows people are overall consider democracy important.   
+For Figure 30, 10 means very important while 1 means not very important. It shows people are overall consider democracy important.
   
 ### How.democratically.is.this.country.being.governed.today
 ```{r}
@@ -470,4 +470,4 @@ ggplot(Data, mapping = aes(x = V141..How.democratically.is.this.country.being.go
   ggtitle("Age and Today's Democracy Level")+ labs(caption = "Figure 33") 
 
 ```
-For Figure 33, 10 means very democratic while 1 means not democratic at all. It shows younger people think the society is more democratic.   
+For Figure 33, 10 means very democratic while 1 means not democratic at all. It shows younger people think the society is more democratic.  
